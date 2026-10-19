@@ -92,7 +92,7 @@ Unit tests cover money invariants and signatures. PostgreSQL integration tests u
 ## Repository map
 
 ```text
-src/main/java/dev/sudoasim/payments
+src/main/java/com/paybizz/payments
 ├── account/    versioned aggregate and account API
 ├── transfer/   use case, ledger, idempotent transfer API
 ├── outbox/     reliable event claim and publication boundary
